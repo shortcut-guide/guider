@@ -144,4 +144,10 @@ pass: admin
 プラグイン「*All-inOne WP Migration*」からデモデータをインポート
 [All in One WP Migrationプラグイン| ServMask Inc.](https://servmask.com/)
 
+デモデータのファイル
+/wordpress/wp-content/ai1wm-backups/demo-data.wpress
+
+1. Wordpress管理画面のサイドバー「*All-inOne WP Migration*」> Importを選択
+2. IMPORT FROMからデモデータのファイルをIMPORT
+
 
