@@ -1,0 +1,550 @@
+@charset "UTF-8"
+@import "config_color"
+@import "config_bg"
+@import "config_mixin"
+
+// ----------------------------------------
+// Config Fonts
+// ----------------------------------------
+
+.font-title
+	font-family: "adobe-garamond-pro",serif
+	font-size: 20px
+	font-weight: 400
+	line-height: 17px
+	letter-spacing: 0.01em
+	color: $font-title-color
+
+.font-single-title
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 20px
+	font-weight: 400
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-title-color
+
+.font-h2
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 18px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-h2-color
+
+.font-h3
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 18px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-h3-color
+
+.font-h4
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-h4-color
+
+.font-blockquote
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-blockquote
+
+.font-accent
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-strong-color
+
+.font-strong
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-accent-color
+
+.font-link
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-link-color
+
+.font-list
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-list-color
+
+.font-prev
+	font-family: "adobe-garamond-pro",serif
+	font-size: 10px
+	font-weight: 500
+	line-height: 10px
+	letter-spacing: 0.01em
+	color: $font-prev-color
+	text-decoration: none
+
+.font-next
+	font-family: "adobe-garamond-pro",serif
+	font-size: 10px
+	font-weight: 500
+	line-height: 10px
+	letter-spacing: 0.01em
+	color: $font-next-color
+
+.font-item-title
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 15px
+	font-weight: 500
+	line-height: 17px
+	letter-spacing: 0.01em
+	color: $font-item-color
+	text-decoration: none
+	display: inline-block
+
+.font-category
+	font-family: "adobe-garamond-pro",serif
+	font-size: 14px
+	font-weight: 400
+	line-height: 14px
+	letter-spacing: 0.01em
+	color: $font-category-color
+	text-decoration: none
+
+.font-time
+	font-family: "adobe-garamond-pro",serif
+	font-size: 14px
+	font-weight: 400
+	line-height: 14px
+	letter-spacing: 0.01em
+	color: $font-time-color
+
+.font-digest
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 11px
+	font-weight: 500
+	line-height: 17px
+	letter-spacing: 0.01em
+	color: $font-digest
+
+.font-pagination
+
+	a,span
+
+		font-family: "adobe-garamond-pro",serif
+		font-size: 11px
+		font-weight: 400
+		line-height: 22px
+		letter-spacing: 0.01em
+		color: $sub-color
+
+.font-contact
+
+	font-family: "adobe-garamond-pro",serif
+	font-size: 20px
+	font-weight: 400
+	line-height: 17px
+	letter-spacing: 0.01em
+	color: $font-title-color
+
+.font-contact-text
+
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 10px
+	font-weight: 400
+	line-height: 17px
+	letter-spacing: 0.01em
+	color: $font-title-color
+
+.wp_rp_title
+
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 10px
+	font-weight: 400
+	line-height: 14px
+	letter-spacing: 0.01em
+	color: $font-title-color
+	text-decoration: none
+
+.font-sub-title
+
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 10px
+	font-weight: 400
+	line-height: 14px
+	letter-spacing: 0.01em
+	color: $font-title-color
+	text-decoration: none
+
+.contact-name,
+.contact-email,
+.contact-message,
+.contact-sent
+	font-size: .75em
+
+.m-breadcrumb-list-item-link.font
+
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 10px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-title-color
+
+.m-single-recent-list-item-title.font
+
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 10px
+	font-weight: 500
+	line-height: 14px
+	letter-spacing: 0.01em
+	color: $font-title-color
+	text-decoration: none
+
+.m-search-form-input
+
+	font-family: "adobe-garamond-pro",serif
+	font-size: 12px
+	font-weight: 400
+	line-height: 17px
+	letter-spacing: 0.01em
+	color: $sub-color2
+
+#menu-categories.menu
+
+	.menu-item a
+
+		font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+		font-size: 14px
+		font-weight: 500
+		line-height: 25px
+		letter-spacing: 0.01em
+		color: $font-link-color
+		text-decoration: none
+		border-bottom: 1px dashed #232323
+
+.m-header-globalnav-nav-external-list-item-link
+
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-link-color
+	text-decoration: none
+	border-bottom: 1px dashed #232323
+
+.m-page-content p
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 10px
+	font-weight: 500
+	line-height: 14px
+	letter-spacing: 0.01em
+	color: $font-title-color
+	text-decoration: none
+
+// ----------------------------------------
+// Config Font Single
+// ----------------------------------------
+
+.m-single-content h2
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 18px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-h2-color
+	background: $sub-color2
+	display: block
+	margin: 25px 0
+	padding: 4px 10px
+
+.m-single-content h3
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 18px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-h3-color
+	margin: 25px 0
+	padding: 4px 8px 8px 8px
+	border-left: 2.5px solid $sub-color2
+
+.m-single-content h4
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-h4-color
+	border-bottom: 1px solid $sub-color
+	margin: 25px 0
+
+.m-single-content blockquote
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-blockquote
+	background: #e7e7e7
+	padding: 10px
+	margin: 25px 0
+
+.m-single-content pre
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-blockquote
+	background: #e7e7e7
+	padding: 10px
+	margin: 25px 0
+	white-space: pre-wrap
+	white-space: -moz-pre-wrap
+	white-space: -webkit-pre-wrap
+	white-space: -o-pre-wrap
+	word-wrap: break-word
+
+.m-single-content b
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-strong-color
+
+.m-single-content strong
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-accent-color
+
+.m-single-content a
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-link-color
+	border-bottom: 1px dashed #232323
+	text-decoration: none
+
+.m-single-content ul
+
+	margin: 0 0 25px 0
+
+.m-single-content li
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-list-color
+	list-style: circle
+	margin-left: 20px
+
+.m-single-content p
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 1.78em
+	letter-spacing: 0.07em
+	color: $font-text-color
+	margin: 25px
+
+.toc-list
+
+	text-align: left
+	padding-left: 40px
+
+.toc-list > li
+
+	list-style: decimal
+	margin: 0 0 18px 0
+
+.toc-list li a
+
+	font-family: "游明朝体", "Yu Mincho", YuMincho,"heisei-mincho-stdn",serif
+	font-size: 14px
+	font-weight: 500
+	line-height: 25px
+	letter-spacing: 0.01em
+	color: $font-link-color
+	border-bottom: 1px dashed #232323
+	text-decoration: none
+	line-height: 18px
+	padding-bottom: 5px
+
+.toc-list li ol
+
+	margin-top: 25px
+
+.toc-list li ol li
+
+	margin: 0 0 18px 15px
+	display: flex
+
+	&:before
+
+		content: "-"
+		display: inline-block
+		width: 2px
+		height: 1px
+		margin-right: 15px
+		line-height: 25px
+
+// ----------------------------------------
+// Config Bg
+// ----------------------------------------
+.m-header.bg
+	&:after
+		content: ""
+		display: block
+		background: url(#{$icon-image-bg}) 0 0 no-repeat
+		background-size: 100%
+
+.m-header-logo-h1-link.bg
+	background: url(#{$logo-image}) 0 0 no-repeat
+	background-size: contain
+	+sprite()
+
+.m-header-globalnav-h3.bg
+	background: url(#{$icon-image-menu}) 0 0 no-repeat
+	background-size: contain
+	+sprite()
+
+.m-header-locallink-box
+	.m-header-locallink-button
+		&.bg
+			background: url(#{$icon-image-index}) 0 0 no-repeat
+			background-size: contain
+			+sprite()
+
+.m-header-locallink-box.close
+	.m-header-locallink-button
+		&.bg
+			background: url(#{$icon-image-cindex}) 0 0 no-repeat
+			background-size: contain
+			+sprite()
+
+.m-new-header-h2.bg,
+.m-contact-h3,
+.m-share-title .en,
+.m-single-related-title .en,
+.m-single-recent-title .en,
+.m-header-locallink-h3 .en
+	&:after
+		background: url(#{$icon-image-uarrow}) 0 0 no-repeat
+		background-size: contain
+
+.m-content.bg,.m-single-prevnext-link.bg
+	&:before
+		background: -webkit-gradient(linear,left top,right bottom,from(#777),color-stop(0.05,#777),color-stop(0.05,#fff),color-stop(0.95,#fff),color-stop(0.95,#777),to(#777))
+		background: -moz-linear-gradient(left,#777 5%,#fff 5%,#fff 95%,#777 95%,#777 100%)
+		background: linear-gradient(left,#777 5%,#fff 5%,#fff 95%,#777 95%,#777 100%)
+	&:after
+		background: -webkit-gradient(linear,left top,right bottom,from(#777),color-stop(0.05,#777),color-stop(0.05,#fff),color-stop(0.95,#fff),color-stop(0.95,#777),to(#777))
+		background: -moz-linear-gradient(left,#777 5%,#fff 5%,#fff 95%,#777 95%,#777 100%)
+		background: linear-gradient(left,#777 5%,#fff 5%,#fff 95%,#777 95%,#777 100%)
+
+.m-new-section-digest-list-item.bg
+	&:before
+		background: url(#{$icon-image-check}) 0 0 no-repeat
+		background-size: contain
+
+.m-pagination-list-item
+
+	&.bg
+
+		a
+			border-color: $sub-color
+
+	.current
+		background-color: $sub-color
+		color: $font-current-color
+
+.m-contact
+
+	&.bg
+
+		background: $main-color
+
+.m-single-header.bg
+
+	&:after
+		background: url(#{$icon-image-uarrow}) 0 0 no-repeat
+		background-size: contain
+
+.m-footer
+
+	&.bg
+
+		background: #2e2725
+
+.m-share
+
+	&:before
+
+		background: $sub-color
+
+.m-single-related
+
+	&:before
+
+		background: $sub-color
+
+// ----------------------------------------
+// Config Icons
+// ----------------------------------------
+@font-face
+	font-family: 'icomoon'
+	src: url('../fonts/icomoon.eot?okpw4l')
+	src: url('../fonts/icomoon.eot?okpw4l#iefix') format('embedded-opentype'),url('../fonts/icomoon.ttf?okpw4l') format('truetype'),url('fonts/icomoon.woff?okpw4l') format('woff'),url('../img/icomoon.svg?okpw4l#icomoon') format('svg')
+	font-weight: normal
+	font-style: normal
+
+.icon-hatena,.icon-pocket,.icon-facebook,.icon-twitter,.icon-rss
+	font-family: 'icomoon' !important
+	speak: none
+	font-style: normal
+	font-weight: normal
+	font-variant: normal
+	text-transform: none
+	line-height: 1
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	display: block
+
+.icon-hatena:before
+	content: "\e900"
+	display: block
+	font-size: 12px
+	line-height: 14px
+.icon-pocket:before
+	content: "\f265"
+	display: block
+.icon-facebook:before
+	content: "\ea90"
+	display: block
+.icon-twitter:before
+	content: "\ea96"
+	display: block
+.icon-rss:before
+	content: "\ea9b"
+	display: block
