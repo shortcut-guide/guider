@@ -4,6 +4,7 @@ Wordpressのテーマ販売用を促進するためのローカル開発環境�
 [更新日] 2017.01.09
 [著者] Shortcut
 [URL] https://github.com/shortcut-guide/guider
+[Wordpress version] 4.7.0
 
 ## 目次
 1. 設定の前に
@@ -143,5 +144,11 @@ pass: admin
 ### 7. デモデータのインポート
 プラグイン「*All-inOne WP Migration*」からデモデータをインポート
 [All in One WP Migrationプラグイン| ServMask Inc.](https://servmask.com/)
+
+デモデータのファイル
+/wordpress/wp-content/ai1wm-backups/demo-data.wpress
+
+1. Wordpress管理画面のサイドバー「*All-inOne WP Migration*」> Importを選択
+2. IMPORT FROMからデモデータのファイルをIMPORT
 
 
