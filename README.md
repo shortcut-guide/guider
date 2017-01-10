@@ -1,10 +1,10 @@
 # Guiter
-Wordpressのテーマ販売用を促進するためのローカル開発環境とWordpressテーマ。
+Wordpressのテーマ販売用を促進するためのローカル開発環境とWordpressテーマ。  
 
-[更新日] 2017.01.09
-[著者] Shortcut
-[URL] https://github.com/shortcut-guide/guider
-[Wordpress version] 4.7.0
+[更新日] 2017.01.09  
+[著者] Shortcut  
+[URL] https://github.com/shortcut-guide/guider  
+[Wordpress version] 4.7.0  
 
 ## 目次
 1. 設定の前に
@@ -19,8 +19,9 @@ Wordpressのテーマ販売用を促進するためのローカル開発環境�
 ### 1.設定の前に
 
 #### WP-CLI
-WordPressをコマンドから管理出来るツールにWP-CLIがあります。
-WP-CLIを使うことによって、プラグインのインストールや、ユーザの設定、パーマリンクの設定等が出来ます。雛形のWordPressを作成したいときによく使用します。
+WordPressをコマンドから管理出来るツールにWP-CLIがあります。  
+WP-CLIを使うことによって、プラグインのインストールや、ユーザの設定、パーマリンクの設定等が出来ます。  
+雛形のWordPressを作成したいときによく使用します。
 
 ##### インストール方法
 wp-cli.phar ファイルをダウンロードします
@@ -121,10 +122,10 @@ pass: admin
 予め、テーマ作成に必要とするプラグインは導入済みです。
 必要となるプラグインを有効化してください。
 
-＊プラグイン「*WP BASIC Auth*」は必要に応じて設定してください。
+＊プラグイン「*WP BASIC Auth*」は必要に応じて設定してください。  
 [WP BASIC Auth — WordPress Plugins](https://ja.wordpress.org/plugins/wp-basic-auth/)
 
-[2] プラグイン「*SiteGuard WP Plugin*」でログインの設定
+[2] プラグイン「*SiteGuard WP Plugin*」でログインの設定  
 [SiteGuard WP Plugin — WordPress Plugins](https://ja.wordpress.org/plugins/siteguard/)
 
 ログインURLを変える事によって、セキュリティをアップする。
@@ -132,17 +133,17 @@ pass: admin
 [image:49ECA129-461E-4DAA-866E-07DFD2B01320-1820-00000EAA03D209A8/Untitled.png]
 
 #### Google Authenticatorのインストール
-プラグインを有効にすると再ログインが必要となります。
+プラグインを有効にすると再ログインが必要となります。  
 その際、下記のアプリが必要となります。ワンタイムパスワードが発行され、ログイン時にワンタイムパスワードが必要となります。
 
-スマホアプリ「*Google Authenticator*」
+スマホアプリ「*Google Authenticator*」  
 [Google Authenticatorを App Store で](https://itunes.apple.com/jp/app/google-authenticator/id388497605?mt=8)
 [Google 認証システム - Google Play の Android アプリ](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=ja)
 
 ---
 
 ### 7. デモデータのインポート
-プラグイン「*All-inOne WP Migration*」からデモデータをインポート
+プラグイン「*All-inOne WP Migration*」からデモデータをインポート  
 [All in One WP Migrationプラグイン| ServMask Inc.](https://servmask.com/)
 
 デモデータのファイル
