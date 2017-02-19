@@ -1,13 +1,13 @@
-<div class="m-share layout design">
+<div class="social">
 
 	<ul>
 		<!--Facebook-->
-		<li class="facebook"><a href="https://www.facebook.com/shortcut.guide">
+		<li class="facebook"><a href="">
 			<span class="icon-facebook"></span>facebook</a>
 		</li>
 
 		<!--ツイッター-->
-		<li class="tweet"><a href="https://twitter.com/shortcut_guide">
+		<li class="tweet"><a href="">
 			<span class="icon-twitter"></span>twitter</a>
 		</li>
 

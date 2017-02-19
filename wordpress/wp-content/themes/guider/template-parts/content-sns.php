@@ -3,11 +3,11 @@
 	$title_encode=urlencode(get_the_title()).'｜'.get_bloginfo('name');
 ?>
 
-<div class="m-share layout design">
+<div class="share">
 
-	<h3 class="m-share-title layout design font-title">
-		<span class="en layout design font-title">SHARE</span>
-		<span class="jp layout design font-sub-title">この記事をシェアする</span>
+	<h3 class="share-title">
+		<span class="en">SHARE</span>
+		<span class="jp">この記事をシェアする</span>
 	</h3>
 	<ul>
 		<!--Facebookボタン-->

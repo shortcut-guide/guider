@@ -1,5 +1,5 @@
-<div class="m-page layout design">
-	<div class="m-page-content layout design">
+<div class="page">
+	<div class="page-content">
 		<?php the_content(); ?>
 	</div>
 </div>

@@ -1,9 +1,6 @@
 <?php
 	$post_array = array(
-		'm-content',
-		'layout',
-		'bg',
-		'design'
+		'content',
 	);
 ?>
 <div id="post-<?php the_ID(); ?>" <?php post_class($post_array); ?>>
