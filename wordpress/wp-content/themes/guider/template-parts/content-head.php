@@ -7,6 +7,17 @@
 
 <title><?php wp_title(); ?></title>
 
+<!--[if lte IE 9]><script src="<?php echo get_template_directory_uri().'/lib/pie/js/html5shiv.js';?>"></script><![endif]-->
+<!--[if lte IE 9]><script src="<?php echo get_template_directory_uri().'/lib/pie/js/respond.min.js';?>"></script><![endif]-->
+<!--[if lte IE 9]><script src="<?php echo get_template_directory_uri().'/lib/pie/js/css3-mediaqueries.js';?>"></script><![endif]-->
+<!--[if lte IE 9]><script src="<?php echo get_template_directory_uri().'/lib/pie/js/EventHelpers.js';?>"></script><![endif]-->
+<!--[if lte IE 9]><script src="<?php echo get_template_directory_uri().'/lib/pie/js/cssQuery-p.js';?>"></script><![endif]-->
+<!--[if lte IE 9]><script src="<?php echo get_template_directory_uri().'/lib/pie/js/jcoglan.com/sylvester.js';?>"></script><![endif]-->
+<!--[if lte IE 9]><script src="<?php echo get_template_directory_uri().'/lib/pie/js/cssSandpaper.js';?>"></script><![endif]-->
+
+<!-- pie css -->
+<link rel="stylesheet" href="<?php echo get_template_directory_uri().'/lib/pie/css/pie.css'; ?>">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
@@ -14,7 +25,6 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/lib/css/module.css'; ?>">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/lib/css/state.css'; ?>">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/lib/css/theme.css'; ?>">
-<!--[if lt IE 9]><script src="<?php echo get_template_directory_uri().'/lib/js/'; ?>html5.js"></script><![endif]-->
 
 <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri().'/lib/img/favicons/apple-touch-icon.png'; ?>/">
 <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri().'/lib/img/favicons/favicon-32x32.png'; ?>" sizes="32x32">

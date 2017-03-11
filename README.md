@@ -24,7 +24,7 @@ WP-CLIを使うことによって、プラグインのインストールや、�
 雛形のWordPressを作成したいときによく使用します。
 
 ##### インストール方法
-wp-cli.phar ファイルをダウンロードします
+wp-cli.phar ファイルをダウンロードします  
 `curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar`
 
 ##### 実行権限を付け、PATHに通します
