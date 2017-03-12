@@ -621,6 +621,22 @@ function is_mobile() {
 }
 
 // ------------------------------
+// ウィジウィグ制御
+// ------------------------------
+function wpautop_filter($content) {
+	global $post;
+	$remove_filter = false;
+	$arr_types = array('page','facility','special','shinryouka'); //自動整形を無効にする投稿タイプを記述
+	$post_type = get_post_type( $post->ID );
+	if (in_array($post_type, $arr_types)) $remove_filter = true;
+	if ( $remove_filter ) {
+		remove_filter('the_content', 'wpautop');
+		remove_filter('the_excerpt', 'wpautop');
+	}
+	return $content;
+}
+
+// ------------------------------
 //=add_actions
 // ------------------------------
 
@@ -647,6 +663,7 @@ endif;
 
 add_filter( 'widget_text', 'do_shortcode');
 add_filter( 'get_search_form', 'my_search_form' );
+add_filter( 'the_content', 'wpautop_filter', 9);
 
 if(!is_admin()):
 	add_filter( 'the_category','add_class_to_category');
